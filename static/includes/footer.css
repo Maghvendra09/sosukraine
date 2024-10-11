@@ -1,0 +1,35 @@
+/* Ensure the html and body take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Make sure the page wrapper takes full height */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content area should grow to fill the space above the footer */
+.content {
+    flex: 1;
+}
+
+/* Footer styles */
+.footer-outer {
+    background-color: #131111;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    padding: 1rem;
+}
+
+.footer-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
